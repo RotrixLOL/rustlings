@@ -26,10 +26,10 @@ enum Fruit {
 
 fn fruit_basket(basket: &mut HashMap<Fruit, u32>) {
     let fruit_kinds = vec![
-        Fruit::Apple,
+        Fruit::Apple, // no modify
         Fruit::Banana,
-        Fruit::Mango,
-        Fruit::Lychee,
+        Fruit::Mango,  // no modify
+        Fruit::Lychee, // no modify
         Fruit::Pineapple,
     ];
 
